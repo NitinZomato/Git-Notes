@@ -48,9 +48,12 @@
 * `git merge` - 
 * `git rebase` - 
 
-7. `git fetch` **Vs** `git pull`  
+7. `git fetch` **Vs** `git pull`  [[simple video](https://www.youtube.com/watch?v=KmagW60Li-o)]
 * `git pull` - Used to fetch and download content from a remote repository and immediately update the local repository to match that content  
-* `git fetch` - 
+* `git fetch` - just used to check that there are any changes available, if yes then download latest changes using `git merge`
+* `git pull = git fetch + git merge`
+<img width="350" src="https://user-images.githubusercontent.com/122450528/219922638-d3912aab-21c0-4643-b74f-1afb06257197.png">
+
 
 8. `git cherry-pick` -   
 9. `git log` - Used to view the history of committed changes within a Git repository.
