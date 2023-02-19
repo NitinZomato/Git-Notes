@@ -44,9 +44,10 @@
   * `git stash branch <branch_name>` : creates a new branch with the latest stash, and then deletes the latest stash (like stash pop).
   * `git stash branch <branch_name> stash@{1}` : creates a new branch with the specific stash, and then delete that specific stash.
 
-6. `git merge` **Vs** `git rebase`  
-* `git merge` - 
-* `git rebase` - 
+6. `git merge` **Vs** `git rebase`  [[visual explanation](https://www.youtube.com/watch?v=BoXAv9M4boU)]
+* `git merge` - It create new commit in `main branch` after combining commits of `new branch` and `main branch`.
+* `git rebase` - Rebasing is the process of moving or combining a `sequence of commits` to a new base commit.
+* `git rebase --abort` - Run this to completely undo the rebase. Git will return you to your branch's state as it was before git rebase was called.
 
 7. `git fetch` **Vs** `git pull`  [[simple video](https://www.youtube.com/watch?v=KmagW60Li-o)]
 * `git pull` - Used to fetch and download content from a remote repository and immediately update the local repository to match that content  
