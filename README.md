@@ -57,15 +57,13 @@
 * `git fetch` - just used to check that there are any changes available, if yes then download latest changes using `git merge`
 * `git pull = git fetch + git merge`  
   <img width="350" src="https://user-images.githubusercontent.com/122450528/219922638-d3912aab-21c0-4643-b74f-1afb06257197.png">
+  
+8. `git log` - Used to view the history of committed changes within a Git repository.
+9. `git push` - Used to upload local repository content to a remote repository.
+10. `git remote -v` - It will list the URL of the remote repo.
+11. `git log <branch_name> --oneline` - Only show commits of current branch.
 
-
-8. `git cherry-pick` -   
-9. `git log` - Used to view the history of committed changes within a Git repository.
-10. `git push` - Used to upload local repository content to a remote repository.
-11. `git remote -v` - It will list the URL of the remote repo.
-12. `git log <branch_name> --oneline` - Only show commits of current branch.
-
-13. **List all the committed files that are going to push to the remote repository**  
+12. **List all the committed files that are going to push to the remote repository**  
 **P.S** The `git status` didn’t show the committed files.
 
 - `git log` to display all the commit_id, the first one is the last commit_id, copy it
