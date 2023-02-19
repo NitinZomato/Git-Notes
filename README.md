@@ -91,7 +91,7 @@
 
 ##
 
-> #### Steps for pushing my Branch to remote repo from Android Studio Terminal   
+> #### Steps for pushing my branch changes to remote repo from Android Studio Terminal   
 1. First of all create new branch from my developement branch in Android Studio.
 2. `git remote set-url origin <repo-SSH link>`
 3. `git status 🔴` [Track changes in modifies files, Unstaging area]
