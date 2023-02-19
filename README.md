@@ -47,13 +47,16 @@
 6. `git merge` **Vs** `git rebase`  [[visual explanation](https://www.youtube.com/watch?v=BoXAv9M4boU)]
 * `git merge` - It create new commit in `main branch` after combining commits of `new branch` and `main branch`.
 * `git rebase` - Rebasing is the process of moving or combining a `sequence of commits` to a new base commit.
-* `git rebase --abort` - Run this to completely undo the rebase. Git will return you to your branch's state as it was before git rebase was called.
+* `git rebase --abort` - Run this to completely undo the rebase. Git will return you to your branch's state as it was before git rebase was called.  
+<img width="380" src="https://user-images.githubusercontent.com/122450528/219931120-79ce2aba-849f-412f-a1fb-f399e1a12bd1.png"> <img width="380"  src="https://user-images.githubusercontent.com/122450528/219931369-f05c02b1-0547-4495-8fe4-a2c31eed22cf.png">
+
+
 
 7. `git fetch` **Vs** `git pull`  [[simple video](https://www.youtube.com/watch?v=KmagW60Li-o)]
 * `git pull` - Used to fetch and download content from a remote repository and immediately update the local repository to match that content  
 * `git fetch` - just used to check that there are any changes available, if yes then download latest changes using `git merge`
-* `git pull = git fetch + git merge`
-<img width="350" src="https://user-images.githubusercontent.com/122450528/219922638-d3912aab-21c0-4643-b74f-1afb06257197.png">
+* `git pull = git fetch + git merge`  
+  <img width="350" src="https://user-images.githubusercontent.com/122450528/219922638-d3912aab-21c0-4643-b74f-1afb06257197.png">
 
 
 8. `git cherry-pick` -   
