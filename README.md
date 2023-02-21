@@ -48,7 +48,7 @@
 * `git merge` - It create new commit in `main branch` after combining commits of `new branch` and `main branch`.
 * `git rebase` - Rebasing is the process of moving or combining a `sequence of commits` to a new base commit.
 * `git rebase --abort` - Run this to completely undo the rebase. Git will return you to your branch's state as it was before git rebase was called.  
-<img width="380" src="https://user-images.githubusercontent.com/122450528/219931120-79ce2aba-849f-412f-a1fb-f399e1a12bd1.png"> <img width="380"  src="https://user-images.githubusercontent.com/122450528/219931369-f05c02b1-0547-4495-8fe4-a2c31eed22cf.png">
+<img width="380" src="https://user-images.githubusercontent.com/122450528/219931120-79ce2aba-849f-412f-a1fb-f399e1a12bd1.png"> - <img width="380"  src="https://user-images.githubusercontent.com/122450528/219931369-f05c02b1-0547-4495-8fe4-a2c31eed22cf.png">
 
 
 
