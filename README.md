@@ -70,7 +70,7 @@
 - `git show commit_id --name-only` to display all the files committed in the specified commit_id
 - Undo the last commit with `git reset --soft HEAD~1`, move the mistakenly committed files back to the staging area
 
-13. How to Delete a Git Branch Both Locally and Remotely
+13. **How to Delete a Git Branch Both Locally and Remotely**
 * **Steps to Delete Locally**
   * Git will not let you delete the branch you are currently on so you must make sure to **checkout** a branch that you are **NOT** deleting. For example: `git checkout development`
   * Delete a branch : `git branch -d <branch_name>`
@@ -79,6 +79,16 @@
   * The branch is now deleted locally.
 * **Steps to Delete Remotely**
   * Command to delete a branch remotely : `git push <remote> --delete <branch_name>` [remote = origin]
+
+14. **Rename Git Branch Locally and Remotely**
+* **Rename the local branch**
+  * First of switch to the local branch which you want to rename : `git checkout <old_name>`
+  * Rename the local branch using command : `git branch -m <new_name>`
+* **Rename the Remote Branch**   
+  * If you have renamed the local branch, and you’ve already pushed the <old_name> branch to the remote repository ,perform the next steps to rename the remote branch.
+    * Push the <new_name> local branch and reset the upstream branch : `git push origin -u <new_name>`
+    * Delete the <old_name> remote branch : `git push origin --delete <old_name>`
+  * DONE ! That’s it. You have successfully renamed the local and remote Git branch.
 
 ➡️ [simplest and visual explanation of Git commands](https://www.atlassian.com/git/tutorials/setting-up-a-repository) 
 
