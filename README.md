@@ -90,6 +90,13 @@
     * Delete the <old_name> remote branch : `git push origin --delete <old_name>`
   * DONE ! That’s it. You have successfully renamed the local and remote Git branch.
 
+15. **Checkout Git Tag**
+* First of all fetch all tags using command : `git fetch`
+* In order to checkout a Git tag, use the *8git checkout** command and specify the tagname as well as the branch to be checked out.
+  * `git checkout tags/<tag_name> -b <branch_name>`
+  * e.g - `git checkout tags/v17.3.5 -b release/v17.3.5`
+* you have successfully checked out the “v17.3.5” tag
+
 ➡️ [simplest and visual explanation of Git commands](https://www.atlassian.com/git/tutorials/setting-up-a-repository) 
 
 ##
