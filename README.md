@@ -188,7 +188,7 @@
 1. Open the Terminal.
 2. First of all change the directory from/where you want to delete/create respectively, using command `cd <path_of_folder>` 
 3. To **create** multiple files use command eg. `touch v2_image_text_snippet_type_{1..51}.json`
-4. To **delete** multiple files use command eg.
+4. To **delete** multiple files use command eg.  
 Note : (Type each line at a time and press enter)
 ``` 
 for file in v2_image_text_snippet_type_*     
