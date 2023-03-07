@@ -177,6 +177,13 @@
 
 ##
 
+> #### Screenshot testing
+1. Download [imagemagick](https://imagemagick.org/script/download.php) using commands to generate the report for changes happen in Screenshots.
+2. Run command `brew install imagemagick`
+3. Run command `brew install ghostscript`
+
+##
+
 > #### Don'ts ❌
 
 * Resolve secret key error, files which has sensitive data, will be commited using  
