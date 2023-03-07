@@ -184,6 +184,18 @@
 
 ##
 
+> #### [How to Create and Delete Multiple Files and Directories at Once with a prefix name](https://trendoceans.com/create-multiple-files-and-directories/)
+1. To **create** multiple files use command eg. `touch v2_image_text_snippet_type_{1..51}.json`
+2. To **delete** multiple files use command eg.
+``` 
+for file in v2_image_text_snippet_type_*     
+do
+rm $file
+done
+```
+
+##
+
 > #### Don'ts ❌
 
 * Resolve secret key error, files which has sensitive data, will be commited using  
