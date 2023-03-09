@@ -97,6 +97,8 @@
   * e.g - `git checkout tags/v17.3.5 -b release/v17.3.5`
 * you have successfully checked out the “v17.3.5” tag
 
+16. Merging Abort : `git merge --abort`
+
 ➡️ [simplest and visual explanation of Git commands](https://www.atlassian.com/git/tutorials/setting-up-a-repository) 
 
 ##
