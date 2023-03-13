@@ -82,8 +82,9 @@
 
 14. **Rename Git Branch Locally and Remotely**
 * **Rename the local branch**
-  * First of switch to the local branch which you want to rename : `git checkout <old_name>`
+  * First of all switch to the local branch which you want to rename : `git checkout <old_name>`
   * Rename the local branch using command : `git branch -m <new_name>`
+  * OR without switching to required branch you can use : `git branch -m <old_branch_name> <new_branch_name>`
 * **Rename the Remote Branch**   
   * If you have renamed the local branch, and you’ve already pushed the <old_name> branch to the remote repository ,perform the next steps to rename the remote branch.
     * Push the <new_name> local branch and reset the upstream branch : `git push origin -u <new_name>`
